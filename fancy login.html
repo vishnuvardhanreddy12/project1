@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANCYLOGIN</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS" ,sans-serif;
+            background: white url("https://media.npr.org/assets/img/2019/02/14/gettyimages-910887220-edit_wide-d55a450358530f0b66a5e16471a798dacd51b352.jpg?s=1400") no-repeat scroll top left;
+        }
+        .form-div{
+            border: 2px solid blue;
+            width: 250px;
+            text-align: center;
+            margin: 200px auto;
+            background-color:rgb0(0, 0, 0,0.5px);
+            border-radius: 10px;
+            box-shadow:0 0 25px green;
+        }
+        .form-div img{
+            width: 100px;
+            margin-top: -50px;
+        }
+        input[type='text'],
+        input[type='password']{
+            text-align: center;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            font-size: 18px;
+            height: 35px;
+            background: transparent;
+            color: magenta;
+            border-bottom: 3px solid teal;
+            width: 200px;
+
+        } input[type='text']:focus,
+        input[type='password']:focus{
+            border-bottom: 3px solid rebeccapurple ;
+            cursor: pointer;
+        }
+        ::placeholder{
+            color: lightgreen;
+        }
+        input[type='submit']{
+           background-color: black;
+           color: white;
+           border: none;
+           font-size: 18px;
+           padding: 10px 35px;
+           margin: 15px;
+           border-radius: 20px;
+        }
+        input[type='submit']:hover{
+            background-color: cyan;
+            color:black;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-div">
+        <img src="https://th.bing.com/th/id/OIP.v0Cw6Gydr5bjYPAQrKRljwHaHa?pid=ImgDet&rs=1">
+        <h2>Login here</h2>
+        <form>
+            <input type="text" placeholder="username">
+            <br>
+            <input type="password" placeholder="passsword">
+            <br>
+            <input type="submit" value="login">
+             </form>
+    </div>
+</body>
+</html>
